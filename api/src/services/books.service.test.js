@@ -9,7 +9,7 @@ jest.mock('../lib/mongo.lib', () => jest.fn().mockImplementation(() => ({
 }
 )));
 
-describe('Test for BookService', () => {
+describe('Test for Book Service', () => {
   let service;
 
   beforeEach(() => {
